@@ -1,0 +1,57 @@
+﻿@{
+    Layout = "_Layout-Login";
+}
+
+<div class="authentication-wrapper authentication-basic container-p-y">
+    <div class="authentication-inner">
+
+        <div class="card-Login" style="background-color: #2f2f2f; border-radius: 20px;">
+            <div class="card-body">
+                <div class="app-brand justify-content-center" style="margin-bottom: 0.5rem;">
+                    <div>
+                        <iframe src="https://lottie.host/?file=bd975756-b739-4801-8197-0970ce0cda78/QBZOrlYyAO.json"></iframe>
+                    </div>
+                </div>
+
+                <h4 style="text-align: center;" class="mb-2">Bem-vindo ao Saúde++ 👋</h4>
+                <p style="text-align: center;" class="mb-4">Faça login na sua conta</p>
+
+                <form id="formAuthentication" class="mb-3" action="/cdsObras/Login/Login" method="POST">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Usuário</label>
+                        <input type="text" class="form-control" id="Usuario" name="Usuario" placeholder="Digite seu nome de usuário" autofocus="">
+                    </div>
+                    <div class="mb-3 form-password-toggle">
+                        <div class="d-flex justify-content-between">
+                            <label class="form-label" for="password">Senha</label>
+                            <a href="">
+                                <small style="color: #d9d9d9 !important">Esqueceu a senha?</small>
+                            </a>
+                        </div>
+                        <div class="input-group input-group-merge">
+                            <input type="password" id="password" class="form-control" name="Senha" placeholder="Senha" aria-describedby="password">
+                            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="remember-me">
+                            <label class="form-check-label" for="remember-me"> Lembre de mim </label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-outline d-grid w-100" href="/cdsObras/Login/Home" asp-controller="TelaPrincipal" asp-action="Index" type="submit">Entrar</button>
+                    </div>
+                </form>
+                <div class="container">
+                    <div style="justify-content:space-between; display:flex">
+                        <div class=" text-sm" align-items:="" center;="" display:="" flex;"="">
+                            © 2023
+                        </div>
+                        <div class=" text-right text-end"><i class='bx bx-buildings' style="color:white;"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

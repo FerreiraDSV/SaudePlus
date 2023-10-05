@@ -1,0 +1,73 @@
+
+small {
+  color: #d32b2b !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white !important;
+}
+container {
+    z-index: 1;
+}
+
+.card-Login {
+    background-color: #4E3327 !important;
+}
+
+h4 {
+    color : #d9d9d9 !important;
+}
+form {
+    color: white;
+}
+label {
+    color: white !important;
+}
+
+button {
+    background-color: #FFAB00 !important;
+    color: #2F2F2F !important;
+}
+
+.css-chao {
+    vertical-align: middle;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+}
+
+.css-direita {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 13rem;
+    margin: 7rem
+}
+.css-esquerda {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 10rem;
+    margin: 13rem;
+}
+
+.text-sm {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
